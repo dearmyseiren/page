@@ -17,16 +17,12 @@ $(function () {
   const albums = ["dear my seiren", "dear my seiren", "dear my seiren", "dear my seiren"];
   const trackNames = [
     "gnash - imagine if",
-    "Kaaze - Electro Boy",
-    "Jordan Schor - Home",
-    "Martin Garrix - Proxy"
+    "david archuleta - crush"
   ];
-  const albumArtworks = ["_2", "_3", "_4", "_5"];
+  const albumArtworks = ["_2", "_3"];
   const trackUrl = [
     "https://dearmyseiren.github.io/resource/gnash.mp3",
-    "https://dearmyseiren.github.io/resource/crush.mp3",
-    "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
-    "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
+    "https://dearmyseiren.github.io/resource/crush.mp3"
   ];
 
   let bgArtworkUrl,
