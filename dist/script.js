@@ -14,15 +14,40 @@ $(function () {
   const tTime = $("#track-length");
   const playPreviousTrackButton = $("#play-previous");
   const playNextTrackButton = $("#play-next");
-  const albums = ["dear my seiren", "dear my seiren", "dear my seiren", "dear my seiren"];
+  const albums = ["dear my seiren"];
   const trackNames = [
     "gnash - imagine if",
-    "david archuleta - crush"
+    "ftisland - aqua (japanese)",
+    "ftisland - アリガト",
+    "jaejin - betelgeuse",
+    "ftisland - hold the moon",
+    "ftisland - imagine",
+    "ftisland - a light in the forest",
+    "ftisland - paper plane",
+    "ftisland - so today...",
+    "ftisland - say what you are",
+    "ftisland - time",
+    "ft - you don't know who i am",
+    "ftisland - yume",
+    "ftisland - aqua",
   ];
-  const albumArtworks = ["_2", "_3"];
+  const albumArtworks = ["_2", "_3", "_4","_5","_5","_5","_5","_5","_5","_5","_5","_5","_5","_5","_5","_5","_5","_5","_5","_5","_5"];
   const trackUrl = [
     "https://dearmyseiren.github.io/resource/gnash.mp3",
-    "https://dearmyseiren.github.io/resource/crush.mp3"
+    "https://dearmyseiren.github.io/resource/aquajp.mp3",
+    "https://dearmyseiren.github.io/resource/arigato.mp3",
+     "https://dearmyseiren.github.io/resource/betelgeuse.mp3",
+    "https://dearmyseiren.github.io/resource/holdthemoon.mp3",
+     "https://dearmyseiren.github.io/resource/imagine.mp3",
+     "https://dearmyseiren.github.io/resource/lightforest.mp3",
+     "https://dearmyseiren.github.io/resource/paperplane.mp3",
+     "https://dearmyseiren.github.io/resource/sotoday.mp3",
+     "https://dearmyseiren.github.io/resource/saywhatyouare.mp3",
+     "https://dearmyseiren.github.io/resource/time.mp3",
+     "https://dearmyseiren.github.io/resource/youdontknow.mp3",
+     "https://dearmyseiren.github.io/resource/yume.mp3",
+     "https://dearmyseiren.github.io/resource/aqua.mp3",
+    
   ];
 
   let bgArtworkUrl,
