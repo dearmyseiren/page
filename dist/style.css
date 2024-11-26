@@ -16,33 +16,28 @@ body {
   outline: none;
 }
 
-body {
-  margin: 0;
-  background-color: #fff;
-}
-
 #player-container {
   position: absolute;
   top: 40%;
   right: 0;
   left: 0;
-  width: 430px;
-  height: 100px;
+  width: 215px; /* 절반 크기 */
+  height: 50px; /* 절반 크기 */
   margin: -4px auto;
 }
 
 #player-bg-artwork {
   position: fixed;
-  top: -30px;
-  right: -30px;
-  bottom: -30px;
-  left: -30px;
+  top: -15px; /* 절반 조정 */
+  right: -15px;
+  bottom: -15px;
+  left: -15px;
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  filter: blur(40px);
-  -webkit-filter: blur(40px);
+  filter: blur(20px); /* 블러 효과 절반 */
+  -webkit-filter: blur(20px);
   z-index: 1;
 }
 
@@ -66,34 +61,34 @@ body {
 #player-track {
   position: absolute;
   top: 0;
-  right: 15px;
-  left: 15px;
-  padding: 13px 22px 10px 184px;
+  right: 7.5px; /* 절반 조정 */
+  left: 7.5px;
+  padding: 6.5px 11px 5px 92px; /* 패딩 절반 */
   background-color: #fbf3da;
-  border-radius: 15px 15px 0 0;
+  border-radius: 7.5px 7.5px 0 0; /* 둥근 모서리 절반 */
   transition: 0.3s ease top;
   z-index: 1;
 }
 
 #player-track.active {
-  top: -92px;
+  top: -46px; /* 절반 조정 */
 }
 
 #album-name {
   color: #54576f;
-  font-size: 17px;
+  font-size: 8.5px; /* 글자 크기 절반 */
   font-weight: bold;
 }
 
 #track-name {
   color: #acaebd;
-  font-size: 13px;
-  margin: 2px 0 13px 0;
+  font-size: 6.5px; /* 글자 크기 절반 */
+  margin: 1px 0 6.5px 0;
 }
 
 #track-time {
-  height: 12px;
-  margin-bottom: 3px;
+  height: 6px; /* 높이 절반 */
+  margin-bottom: 1.5px;
   overflow: hidden;
 }
 
@@ -108,9 +103,9 @@ body {
 #current-time,
 #track-length {
   color: transparent;
-  font-size: 11px;
+  font-size: 5.5px; /* 글자 크기 절반 */
   background-color: #ffe8ee;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: 0.3s ease all;
 }
 
@@ -123,8 +118,8 @@ body {
 #seek-bar-container,
 #seek-bar {
   position: relative;
-  height: 4px;
-  border-radius: 4px;
+  height: 2px; /* 높이 절반 */
+  border-radius: 2px;
 }
 
 #seek-bar-container {
@@ -134,12 +129,12 @@ body {
 
 #seek-time {
   position: absolute;
-  top: -29px;
+  top: -14.5px; /* 절반 조정 */
   color: #fff;
-  font-size: 12px;
+  font-size: 6px; /* 글자 크기 절반 */
   white-space: pre;
-  padding: 5px 6px;
-  border-radius: 4px;
+  padding: 2.5px 3px; /* 패딩 절반 */
+  border-radius: 2px;
   display: none;
 }
 
@@ -173,27 +168,27 @@ body {
   position: relative;
   height: 100%;
   background-color: #fff;
-  box-shadow: 0 30px 30px #E6E6E6;
-  border-radius: 10px;
+  box-shadow: 0 15px 15px #E6E6E6; /* 그림자 크기 절반 */
+  border-radius: 5px;
   z-index: 2;
 }
 
 #album-art {
   position: absolute;
-  top: -40px;
-  width: 115px;
-  height: 115px;
-  margin-left: 40px;
+  top: -20px; /* 위치 절반 */
+  width: 57.5px; /* 크기 절반 */
+  height: 57.5px; /* 크기 절반 */
+  margin-left: 20px; /* 여백 절반 */
   transform: rotateZ(0);
   transition: 0.3s ease all;
-  box-shadow: 0 0 0 10px #fff;
+  box-shadow: 0 0 0 5px #fff; /* 그림자 크기 절반 */
   border-radius: 50%;
   overflow: hidden;
 }
 
 #album-art.active {
-  top: -60px;
-  box-shadow: 0 0 0 4px #fff7f7, 0 30px 50px -15px #afb7c1;
+  top: -30px;
+  box-shadow: 0 0 0 2px #fff7f7, 0 15px 25px -7.5px #afb7c1; /* 그림자 크기 절반 */
 }
 
 #album-art:before {
@@ -202,12 +197,12 @@ body {
   top: 50%;
   right: 0;
   left: 0;
-  width: 20px;
-  height: 20px;
-  margin: -10px auto 0 auto;
+  width: 10px; /* 크기 절반 */
+  height: 10px; /* 크기 절반 */
+  margin: -5px auto 0 auto;
   background-color: #d6dee7;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 2px #fff;
+  box-shadow: inset 0 0 0 1px #fff;
   z-index: 2;
 }
 
@@ -256,15 +251,15 @@ body {
   top: 50%;
   right: 0;
   left: 0;
-  height: 13px;
+  height: 6.5px; /* 높이 절반 */
   color: #1f1f1f;
-  font-size: 13px;
+  font-size: 6.5px; /* 글자 크기 절반 */
   font-family: Helvetica;
   text-align: center;
   font-weight: bold;
   line-height: 1;
-  padding: 6px;
-  margin: -12px auto 0 auto;
+  padding: 3px; /* 패딩 절반 */
+  margin: -6px auto 0 auto;
   background-color: rgba(255, 255, 255, 0.19);
   opacity: 0;
   z-index: 2;
@@ -281,8 +276,8 @@ body {
 
 #album-art.buffering img.active {
   opacity: 0.8;
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(1px); /* 블러 효과 절반 */
+  -webkit-filter: blur(1px);
 }
 
 #album-art.buffering #buffer-box {
@@ -290,32 +285,32 @@ body {
 }
 
 #player-controls {
-  width: 250px;
+  width: 125px; /* 절반 크기 */
   height: 100%;
-  margin: 0 5px 0 141px;
+  margin: 0 2.5px 0 70.5px; /* 절반 조정 */
   float: right;
   overflow: hidden;
 }
 
 .control {
-  width: 33.333%;
+  width: 26.666%; /* 절반 크기 */
   float: left;
-  padding: 12px 0;
+  padding: 6px 0;
 }
 
 .button {
-  width: 26px;
-  height: 26px;
-  padding: 25px;
+  width: 6px; /* 절반 크기 */
+  height: 6px; /* 절반 크기 */
+  padding: 12.5px; /* 절반 크기 */
   background-color: #fff;
-  border-radius: 6px;
+  border-radius: 30px; /* 둥근 모서리 절반 */
   cursor: pointer;
 }
 
 .button i {
   display: block;
   color: #d6dee7;
-  font-size: 26px;
+  font-size: 6px;
   text-align: center;
   line-height: 1;
 }
