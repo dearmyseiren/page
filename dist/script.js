@@ -18,8 +18,8 @@ $(function () {
   const trackNames = [
     "ftisland - crazy love",
     "ftisland - sayonara",
-    "ftisland - aqua (japanese)",
     "ftisland - アリガト",
+    "ftisland - aqua (japanese)",
     "jaejin - betelgeuse",
     "ftisland - hold the moon",
     "ftisland - imagine",
@@ -38,8 +38,8 @@ $(function () {
   const trackUrl = [
     "https://dearmyseiren.github.io/resource/crazylove.mp3",
     "https://dearmyseiren.github.io/resource/sayonara.mp3",
-    "https://dearmyseiren.github.io/resource/aquajp.mp3",
     "https://dearmyseiren.github.io/resource/arigato.mp3",
+    "https://dearmyseiren.github.io/resource/aquajp.mp3",
     "https://dearmyseiren.github.io/resource/betelgeuse.mp3",
     "https://dearmyseiren.github.io/resource/holdthemoon.mp3",
     "https://dearmyseiren.github.io/resource/imagine.mp3",
