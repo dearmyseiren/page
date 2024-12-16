@@ -16,11 +16,11 @@ $(function () {
   const playNextTrackButton = $("#play-next");
   const albums = ["dear my seiren"];
   const trackNames = [
+    "jaejin - betelgeuse",
     "ftisland - crazy love",
     "ftisland - sayonara",
     "ftisland - アリガト",
     "ftisland - aqua (japanese)",
-    "jaejin - betelgeuse",
     "ftisland - hold the moon",
     "ftisland - imagine",
     "ftisland - a light in the forest",
@@ -36,11 +36,11 @@ $(function () {
     "_2", "_3", "_4", "_5", "_5", "_5", "_5", "_5", "_5", "_5", "_5", "_5", "_5", "_5", "_5"
   ];
   const trackUrl = [
+    "https://dearmyseiren.github.io/resource/betelgeuse.mp3",
     "https://dearmyseiren.github.io/resource/crazylove.mp3",
     "https://dearmyseiren.github.io/resource/sayonara.mp3",
     "https://dearmyseiren.github.io/resource/arigato.mp3",
     "https://dearmyseiren.github.io/resource/aquajp.mp3",
-    "https://dearmyseiren.github.io/resource/betelgeuse.mp3",
     "https://dearmyseiren.github.io/resource/holdthemoon.mp3",
     "https://dearmyseiren.github.io/resource/imagine.mp3",
     "https://dearmyseiren.github.io/resource/lightforest.mp3",
